@@ -1,0 +1,78 @@
+/* info_guideBox */
+#guideBox{
+	width: 100%; 
+}
+
+.guide_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+	padding: 3rem 1rem 0 1rem; box-sizing: border-box;
+}
+
+.guide_area h3{
+	width: auto; height: auto;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.guide_area h3 i{
+	margin-right: 1rem;
+	color:#F9BF1B;
+}
+
+.guide_area_box{
+	width: 100%; height: 100%;
+	padding-top: 2rem;
+}
+
+.guide_area_box ul {
+	display: flex;
+	width: 80%; height: 60%;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.guide_area_box li{
+	position:relative;
+  z-index:1;
+	float: left;
+	width: 25%; height: 100%;
+	background-color: #777;
+	border-radius: 5%;
+	text-align: center;
+	background-image:url('../../../img/goyang_flower/flower_01.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	box-shadow: 1rem 1rem #333;
+	transition-property:all;
+	transition-duration:500ms;
+	transition-timing-function:linear;
+}
+
+
+.guide_area_box li:hover{
+	background-size: 110% 110%;
+}
+
+.guide_area_box li.action{
+	background-color:#9a3e98;
+}
+
+.guide_area_box li a{
+	display: block;
+	width: 100%; height: 100%;
+	border-radius: 5%;
+	padding-top: 4.1rem; box-sizing: border-box; 
+	color:#fff;
+}
+
+.guide_area_box em{
+	font-style: normal;
+	font-size:1.8rem;
+	font-weight: bold;
+}
+
+.guide_area_box p{
+	font-size: 1.2rem;
+}

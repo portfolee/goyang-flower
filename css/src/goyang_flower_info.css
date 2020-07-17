@@ -1,0 +1,11 @@
+/* goyang_flower_info.css */
+
+@import url('./goyang_flower_info/wrap.css');
+
+@import url('./common/header.css');
+
+@import url('./goyang_flower/viewBox.css');
+@import url('./goyang_flower_info/guideBox.css');
+@import url('./goyang_flower_info/contentBox.css');
+
+@import url('./common/footer.css');

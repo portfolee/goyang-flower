@@ -1,0 +1,89 @@
+/* storyBox.css */
+/* main-storyBox */
+
+#storyBox{
+	width: 100%; 
+}
+
+.storyBox_area{
+	width: 1024px;
+	height: 100%;
+	margin: auto;
+	padding: 200px 20px 0 20px; box-sizing: border-box;
+}
+
+#storyBox h2{
+	display: block;
+	width:auto; height: auto;
+	font-size: 3rem;
+	text-align: center;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+.story_text{
+	float: right;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+
+.story_text p {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.story_text em {
+	font-size: 1.5rem;
+	font-style: normal;
+	color: #777;
+}
+
+.story_area{
+	width: 500px; height: 360px;
+	background-image: url('../../../img/main/story.png');
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+	background-size:cover;
+	box-shadow: 20px 20px #9a3e98;
+}
+
+.story_01{
+	background-color: #dfa;
+}
+
+.story_02{
+	background-color: #dca;
+}
+
+.story_03{
+	background-color: #ada;
+}
+
+.story_04{
+	background-color: #fca;
+}
+
+.story_05{
+	background-color: #dda;
+}
+
+
+.flower{
+	width: 100%; height: 400px;
+	background-image: url('../../../img/main/flower.png');
+	background-repeat: no-repeat;
+}
+
+
+/* mobile */
+@media screen and (max-width:639px){}
+
+/* tablet */
+@media screen and (min-width:640px) and (max-width:1023px){}
+
+/* pc */
+@media screen and (min-width:1024px) and (max-width:1439px){}
+
+/* pcfull */
+@media screen and (min-width:1440px){}

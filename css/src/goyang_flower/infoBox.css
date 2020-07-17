@@ -1,0 +1,68 @@
+/* goyang_flower_infoBox.css */
+#infoBox{
+	width: 100%; 
+}
+
+.info_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+	padding: 3rem 1rem; box-sizing: border-box;
+}
+
+.info_area h3{
+	width: auto; height: auto;
+	background-color: #fff;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.info_area h3 i{
+	margin-right: 1rem;
+	color:#F9BF1B;
+}
+
+
+.info_area_box{
+	width: 100%;
+	height: 100%;
+}
+
+.info_text_box {
+	width: 60%;
+	border: 1px solid #d4d4d4;
+	background-color: #fafafa;
+	border-radius: 2rem;
+	padding-bottom: 2rem;
+}
+
+
+.info_area_box dl{
+	width: 100%;
+	padding: 37px 0px 10px 30px;
+}
+
+.info_area_box dl i{
+	margin-right: 0.3rem;
+}
+
+.info_area_box dt{
+	float: left;
+	width: 18%;
+	padding-top: 3px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.info_area_box dd{
+	width: 80%;
+	height: auto;
+}
+
+.info_img{
+	float: right;
+	width: 35%; height: 90%;
+	background-image: url('../../../img/goyang_flower/goyang_flower_img.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}

@@ -1,0 +1,65 @@
+/* gallery_viewBox.css */
+#viewBox{
+	width: 100%; background-color: #cfcfcf;
+}
+
+.view_area{
+	position: relative;
+	width: 100%; height: 85%;
+	background-color: #333;
+	background-image: url('../../../img/gallery/banner_img.png');
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+#viewBox h2{
+	position: absolute; top:55%; left: 20%;
+	font-size: 3.5rem;
+	color:#fff;
+}
+
+.sub_menu_box{
+	width: 100%; height: 15%;
+	background-color:#d2128b;
+}
+
+.sub_menu_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+	background-color: #d2128b;
+}
+
+.sub_menu_area ul{
+	width: 100%; height: 100%;
+}
+
+.sub_menu_area li{
+	text-align: center;
+	float: left;
+	width: 25%; height: 100%;
+	border-right: 1px solid #fff;
+	box-sizing: border-box;
+	line-height: 4.3rem;
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+.sub_menu_area li:first-child{
+	border-left: 1px solid #fff;
+}
+
+.sub_menu_area a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.sub_menu_area a:hover,
+.sub_menu_area a:focus{
+	font-weight: bold;
+	background-color: #777;
+}
+
+.sub_menu_area li.action{
+	font-weight: bold;
+	background-color: #333;
+}

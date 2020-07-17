@@ -1,0 +1,10 @@
+/* gallery.css */
+
+@import url('./gallery/wrap.css');
+
+@import url('./common/header.css');
+
+@import url('./gallery/viewBox.css');
+@import url('./gallery/contentBox.css');
+
+@import url('./common/footer.css');

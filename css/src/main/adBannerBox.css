@@ -1,0 +1,131 @@
+/* adBannerBox.css */
+/* main-adBannerBox */
+
+#adBannerBox {
+	position: relative;
+	width: 100%; 
+	background-color: #ca7;
+}
+
+
+
+
+
+/* scroll_icon============================= */
+
+.scroll_icon{
+	position: absolute; z-index: 100;
+	left: 0; right: 0; bottom: 0;
+	margin: auto;
+	width: 145px; height: 192px;
+	background-image: url('../../../img/main/flower_icon_02.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* slide==================================== */
+
+.slide_area{
+	width: 100%; height: 100%;
+}
+
+.slide_box{
+	width: 100%; height: 100%;
+}
+
+.ad_text_box{
+	position: absolute; z-index: 50;
+	left:20%; 
+}
+
+.ad_text_box h3{
+	font-weight: normal;
+	padding-top: 45%;
+	font-size: 3.5rem;
+	color: #fff;
+}
+
+.ad_text_box p{
+	font-size: 5rem;
+	color: #fff;
+}
+
+
+/* ============================================ */
+
+
+.slide_box div{
+	position: absolute;
+	width: 100%; height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+	background-color: #333;
+}
+.ad_slide_01{
+	background-image: url('../../../img/main/banner_01.png');
+}
+
+.ad_slide_02{
+	background-image: url('../../../img/main/banner_02.png');
+}
+.ad_slide_03{
+	background-image: url('../../../img/main/banner_03.png');
+}
+
+#adBannerBox:before{
+	content: " ";
+	display: block;
+	position: absolute; z-index: 50;
+	left:0; bottom: 0;
+	width: 100%; height: 200px;
+	background-image: url('../../../img/main/banner_texture.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.indicator{
+	position: absolute; z-index: 50;
+	bottom: 15%; right: 12%;
+	width: auto; height: auto;
+}
+
+.indicator ul{
+	width: auto;
+	height: auto;
+}
+
+.indicator li{
+	float: left;
+	width: 20px; height: 20px;
+	border-radius: 100%;
+	background-color: #777;
+	margin: 0 10px 0 10px;
+}
+
+.indicator li a{
+	display: block;
+	width: 100%; height: 100%;
+	border-radius: inherit;
+}
+
+.indicator li.action{
+	width: 40px; height:20px;
+	border-radius: 1rem;
+	background-color:#d2128b;
+}
+
+/* mobile */
+@media screen and (max-width:639px){
+	
+
+	
+}
+
+/* tablet */
+@media screen and (min-width:640px) and (max-width:1023px){}
+
+/* pc */
+@media screen and (min-width:1024px) and (max-width:1439px){}
+
+/* pcfull */
+@media screen and (min-width:1440px){}

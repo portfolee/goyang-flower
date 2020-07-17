@@ -1,0 +1,129 @@
+/* book_cafe_contentBox */
+
+#contentBox{
+	width: 100%; 
+}
+
+.content_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+	padding: 3rem 1rem; box-sizing: border-box;
+}
+
+.content_area h3{
+	width: auto; height: auto;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.content_area h3 i{
+	margin-right: 1rem;
+	color:#F9BF1B;
+}
+
+.content_area_text {
+	margin-top:2rem;
+}
+
+.content_area_text em{
+	font-style: normal;
+	font-size: 1.3rem;
+	color: purple;
+	font-weight: bold;
+}
+
+.content_area_text em i {
+	display: inline-block;
+	width: auto; height: auto;
+	padding: 0 1rem;
+}
+
+.content_area_text p{
+	display: inline-block;
+	width: auto; height: auto;
+	padding: 1rem 1rem;
+	color:#777;
+	line-height: 1.5rem;
+}
+
+.content_menu{
+	width: 100%; height: 300px;
+	background-color: #fff;
+	padding: 2rem; box-sizing: border-box;
+}
+
+.content_menu ul{
+	display: flex;
+	width: 100%; height: 100%;
+	justify-content: space-around;
+}
+
+.content_menu li{
+	width: 25%; height: 100%;
+	background-color: #fff;
+	border:1px solid #999;
+}
+
+.content_menu li a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.img_box{
+	width:100%; height: 60%;
+	background-color: #fff;
+	overflow: hidden;
+	border-bottom: 5px solid #F9BF1B;
+}
+
+.img_box img{
+	width: 100%; height: 130%;
+}
+
+.content_menu em{
+	display: block;
+	width: auto; height: auto;
+	padding: 0.8rem;
+	font-style: normal;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.content_menu p{
+	display: block;
+	width: auto; height: auto;
+	padding: 0 0.9rem;
+	font-size: 0.8rem;
+	color:#777;
+}
+
+.img_box img.action{
+	transform:scale(1.1);
+}
+
+.content_area_text_02{
+	width: 100%; height: auto;
+}
+
+.content_area_text_02 em{
+	display: inline-block;
+	width: 100%; height: auto;
+	font-weight: bold;
+	font-style: normal;
+	padding:0 0.5rem; box-sizing: border-box;
+}
+
+.content_area_text_02 p{
+	display: inline-block;
+	width: auto; height: auto;
+	color:#777;
+	line-height: 1.5rem;
+	font-weight: normal;
+	padding:0 1rem; box-sizing: border-box;
+}
+
+h4{
+	display: inline-block;
+	width: 100%; height: auto;
+	padding: 0.5rem 0;
+}

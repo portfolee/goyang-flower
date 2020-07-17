@@ -1,0 +1,12 @@
+/* main.css */
+
+@import url('./main/main_wrap.css');
+
+@import url('./common/header.css');
+
+@import url('./main/adBannerBox.css');
+@import url('./main/storyBox.css');
+@import url('./main/videoBox.css');
+@import url('./main/noticeBox.css');
+
+@import url('./common/footer.css');

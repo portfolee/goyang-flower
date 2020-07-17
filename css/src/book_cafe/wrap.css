@@ -1,0 +1,7 @@
+/* book_cafe_wrap.css */
+
+#wrap{
+	width: 100%; min-width:1024px;
+	height: auto; min-height:980px;
+	margin: auto;
+}

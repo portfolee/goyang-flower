@@ -1,0 +1,64 @@
+/* videoBox.css */
+/* main-videoBox */
+
+#videoBox{
+	width: 100%;
+}
+
+.videoBox_area{
+	width: 1024px;
+	height: 100%;
+	margin: auto;
+	padding: 200px 20px 0 20px; box-sizing: border-box;
+}
+
+#videoBox h2{
+	display: block;
+	width:auto; height: auto;
+	font-size: 3rem;
+	text-align: center;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+.video_text{
+	float: left;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.video_text p {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.video_text em {
+	font-size: 1.5rem;
+	font-style: normal;
+	color: #777;
+}
+
+.video_area{
+	float: right;
+	width: 500px; height: 360px;
+	background-color: #333;
+	box-shadow: -20px -20px #d2128b;
+	overflow: hidden;
+}
+
+.iframe{
+	width: 100%; height: 100%;
+}
+
+/* mobile */
+@media screen and (max-width:639px){}
+
+/* tablet */
+@media screen and (min-width:640px) and (max-width:1023px){}
+
+/* pc */
+@media screen and (min-width:1024px) and (max-width:1439px){}
+
+/* pcfull */
+@media screen and (min-width:1440px){}

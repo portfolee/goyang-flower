@@ -1,0 +1,87 @@
+/* goyang_flower_viewBox.css */
+#viewBox{
+	position: relative;
+	width: 100%; 
+}
+
+.view_text_box{
+	position: absolute; top: 0; left: 0;
+	right: 0; bottom: 5%; margin: auto;
+	width:1024px; height: 100px;
+	padding: 1rem; box-sizing: border-box;
+	text-shadow: 2px 2px #333;
+}
+
+.view_text_box h3{
+	font-size: 4rem;
+	color:#fff;
+}
+
+.view_text_box p{
+	font-size: 2rem;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.view_img{
+	width: 100%; height: 100%;
+	background-image: url('../../../img/main/banner_01.png');
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+	background-color: rgb(19, 19, 19);
+}
+
+.view_area{
+	width: 100%;
+	height: 80%;
+	background-color: #aca;
+}
+
+.sub_menu_box{
+	width: 100%;
+	height: 10%;
+	margin-top: 50px;
+	background-color: #9a3e98;
+}
+
+.sub_menu_area{
+	width: 1024px;
+	height: 100%;
+	margin: auto;
+	background-color: #9a3e98;
+}
+
+.sub_menu_area ul{
+	width:100%; height: 100%;
+}
+
+.sub_menu_area li {
+	float: left;
+	width: 25%; height: 100%;
+	font-size: 1.5rem;
+	color:#fff;
+	text-align: center;
+	line-height: 5.5rem;
+	border-right:1px solid #fff;
+	box-sizing: border-box;
+}
+
+.sub_menu_area li:first-child{
+	border-left: 1px solid #fff;
+}
+
+.sub_menu_area a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.sub_menu_area a:hover,
+.sub_menu_area a:focus{
+	font-weight: bold;
+	background-color: #777;
+}
+
+.sub_menu_area li.action{
+	font-weight: bold;
+	background-color: #333;
+}

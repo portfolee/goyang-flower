@@ -1,0 +1,41 @@
+/* goyang_flower_info_content.css */
+
+#contentBox{
+	width: 100%;
+}
+
+.content_area{
+	width: 1024px; height: auto;
+	margin: auto;
+	padding: 3rem 2rem; box-sizing: border-box;
+}
+
+.content_area h3{
+	font-size: 1.3rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #333;
+}
+
+.content_area ul{
+	width: 100%; height: 100%;
+	padding: 1rem; box-sizing: border-box;
+}
+
+.content_area li{
+	width: auto; height: auto;
+}
+
+.content_area em{
+	display: block;
+	width: 100%; height: auto;
+	padding: 1rem 0 1rem 0; box-sizing: border-box;
+	font-style: normal;
+	font-size: 1.1rem;
+	color: rgb(88, 88, 88);
+	font-weight: bold;
+}
+
+.content_area p {
+	padding-left: 1rem;
+}
+
